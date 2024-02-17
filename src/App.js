@@ -11,8 +11,8 @@ const App = () => (
   <Switch>
     <Route exact path="/ebank/login" component={LoginForm} />
     <ProtectedRoute exact path="/" component={Home} />
-    <Route path="/not-found" component={NotFound} />
-    <Redirect to="/not-found" />
+    <Route path="/bad-path" component={NotFound} />
+    <Redirect to="/bad-path" />
   </Switch>
 )
 export default App

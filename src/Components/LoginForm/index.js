@@ -81,6 +81,7 @@ class LoginForm extends Component {
                 placeholder="Enter User ID"
                 onChange={this.onChangeUserID}
                 className="userId-input"
+                type="text"
               />
               <label htmlFor="pin" className="pin-label">
                 PIN
@@ -91,6 +92,7 @@ class LoginForm extends Component {
                 placeholder="Enter PIN"
                 onChange={this.onChangePin}
                 className="pin-input"
+                type="password"
               />
               <button type="submit" className="submit-btn">
                 Login

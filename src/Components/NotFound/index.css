@@ -1,0 +1,24 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 600px;
+}
+
+h1 {
+  color: #183b56;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+p {
+  color: #5a7184;
+  margin-top: 0;
+  font-size: 21px;
+  font-weight: 500;
+}
